@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_uu9jYJ7sEeaEIIqjX2deDA" name="SRC_EmployeePayHistory" dataPackage="_uu9jYZ7sEeaEIIqjX2deDA" ContextId="" contextName="Default" Server="Localhost 127.0.0.1" FilePath="C:/Users/naukasalot/Desktop/DWBI/Mid-Term Project/EmployeePayHistory.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FooterValue="0" LimitValue="0" FirstLineCaption="true" FieldSeparatorType="Custom UTF8"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_uu9jYZ7sEeaEIIqjX2deDA" name="default" dataManager="_uu9jYJ7sEeaEIIqjX2deDA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_uu9jYp7sEeaEIIqjX2deDA" id="_s8c2MJ7nEeaEIIqjX2deDA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uu9jY57sEeaEIIqjX2deDA" label="BusinessEntityID_RateChangeDate_Rate_PayFrequency_ModifiedDate" length="34" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
