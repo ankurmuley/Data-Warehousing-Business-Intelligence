@@ -1,0 +1,4 @@
+﻿ScenarioKey	ScenarioLabel	ScenarioName	ScenarioDescription	ETLLoadID	LoadDate	UpdateDate	DW_JobPID	DW_CreateDate	DW_ModifyDate
+1	01	Actual	Actual	1	2014-07-11 14:43:19.000	2014-07-11 14:43:19.000	NULL	NULL	NULL
+2	02	Budget	Budget	1	2014-07-11 14:43:19.000	2014-07-11 14:43:19.000	NULL	NULL	NULL
+3	03	Forecast	Forecast	1	2014-07-11 14:43:19.000	2014-07-11 14:43:19.000	NULL	NULL	NULL
