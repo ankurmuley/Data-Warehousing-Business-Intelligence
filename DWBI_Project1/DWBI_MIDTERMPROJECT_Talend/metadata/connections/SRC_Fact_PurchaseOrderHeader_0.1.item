@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_AsK_sJrjEeaxPvMdcGTPsA" name="SRC_Fact_PurchaseOrderHeader" id="_qrZ3MJriEeaxPvMdcGTPsA" label="SRC_Fact_PurchaseOrderHeader" dataPackage="_m9a3oJrkEeaxPvMdcGTPsA" DatabaseType="Microsoft SQL Server" DriverClass="net.sourceforge.jtds.jdbc.Driver" URL="jdbc:jtds:sqlserver://NAUKA-PC:1433/AdventureWorks2014_SOR;" Port="1433" Username="sa" Password="NZNgK6DuncI=" ServerName="NAUKA-PC" DatasourceName="" FileFieldName="" SID="AdventureWorks2014_SOR" SqlSynthax="SQL Syntax" DbmsId="id_MSSQL" ProductId="SQL_SERVER" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="Purchasing">
+    <taggedValue xmi:id="_AsK_sZrjEeaxPvMdcGTPsA" tag="Is Conn Need Reload" value="true"/>
+    <taggedValue xmi:id="_AuG5YJrjEeaxPvMdcGTPsA" tag="package filter" value=""/>
+    <taggedValue xmi:id="_AuIHgJrjEeaxPvMdcGTPsA" tag="Status" value=""/>
+    <taggedValue xmi:id="_AuIHgZrjEeaxPvMdcGTPsA" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_AuIHgprjEeaxPvMdcGTPsA" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_AuIHg5rjEeaxPvMdcGTPsA" tag="Description" value=""/>
+    <taggedValue xmi:id="_AuIHhJrjEeaxPvMdcGTPsA" tag="Author" value=""/>
+    <taggedValue xmi:id="_AuIHhZrjEeaxPvMdcGTPsA" tag="otherParameter"/>
+    <taggedValue xmi:id="_A0B7MJrjEeaxPvMdcGTPsA" tag="DB ProductName" value="Microsoft SQL Server"/>
+    <taggedValue xmi:id="_A0B7MZrjEeaxPvMdcGTPsA" tag="DB ProductVersion" value="13.00.1601"/>
+    <taggedValue xmi:id="_A0CiQJrjEeaxPvMdcGTPsA" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_AsK_sprjEeaxPvMdcGTPsA" key="CONN_PARA_KEY_USERNAME" value="sa"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_m9a3oJrkEeaxPvMdcGTPsA" name="AdventureWorks2014_SOR" dataManager="_AsK_sJrjEeaxPvMdcGTPsA">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_m9a3oZrkEeaxPvMdcGTPsA" name="Purchasing"/>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>

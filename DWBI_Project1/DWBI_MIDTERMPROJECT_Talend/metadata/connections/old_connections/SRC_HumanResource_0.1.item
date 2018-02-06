@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <TalendMetadata:DatabaseConnection xmi:id="_55BawJv8Eeax9YbVxwrJCg" name="SRC_HumanResource" id="_mmezEJv8Eeax9YbVxwrJCg" label="SRC_HumanResource" dataPackage="_59lKoJv8Eeax9YbVxwrJCg" DatabaseType="Microsoft SQL Server" DriverClass="net.sourceforge.jtds.jdbc.Driver" URL="jdbc:jtds:sqlserver://NAUKA-PC:1433/AdventureWorks2014_SOR;" Port="1433" Username="sa" Password="NZNgK6DuncI=" ServerName="NAUKA-PC" DatasourceName="" FileFieldName="" SID="AdventureWorks2014_SOR" SqlSynthax="SQL Syntax" DbmsId="id_MSSQL" ProductId="SQL_SERVER" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="HumanResources">
+    <taggedValue xmi:id="_55BawZv8Eeax9YbVxwrJCg" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_550E8Jv8Eeax9YbVxwrJCg" tag="package filter" value=""/>
+    <taggedValue xmi:id="_550sAJv8Eeax9YbVxwrJCg" tag="Status" value=""/>
+    <taggedValue xmi:id="_550sAZv8Eeax9YbVxwrJCg" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_550sApv8Eeax9YbVxwrJCg" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_550sA5v8Eeax9YbVxwrJCg" tag="Description" value=""/>
+    <taggedValue xmi:id="_550sBJv8Eeax9YbVxwrJCg" tag="Author" value=""/>
+    <taggedValue xmi:id="_550sBZv8Eeax9YbVxwrJCg" tag="otherParameter"/>
+    <taggedValue xmi:id="_56uq8Jv8Eeax9YbVxwrJCg" tag="DB ProductName" value="Microsoft SQL Server"/>
+    <taggedValue xmi:id="_56uq8Zv8Eeax9YbVxwrJCg" tag="DB ProductVersion" value="13.00.1601"/>
+    <taggedValue xmi:id="_56uq8pv8Eeax9YbVxwrJCg" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_55Bawpv8Eeax9YbVxwrJCg" key="CONN_PARA_KEY_USERNAME" value="sa"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_59lKoJv8Eeax9YbVxwrJCg" name="AdventureWorks2014_SOR" dataManager="_55BawJv8Eeax9YbVxwrJCg">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_59lKoZv8Eeax9YbVxwrJCg" name="HumanResources">
+      <ownedElement xsi:type="relational:TdTable" xmi:id="__hyaEJv8Eeax9YbVxwrJCg" name="Employee" id="__hxzAJv8Eeax9YbVxwrJCg" label="Employee" tableType="TABLE">
+        <taggedValue xmi:id="__hyaEZv8Eeax9YbVxwrJCg" tag="Comment" value=""/>
+        <feature xsi:type="relational:TdColumn" xmi:id="__hyaEpv8Eeax9YbVxwrJCg" name="BusinessEntityID" label="BusinessEntityID" length="10" sourceType="INT" talendType="id_Integer" key="true" nullable="false">
+          <taggedValue xmi:id="__hyaE5v8Eeax9YbVxwrJCg" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="__hyaFJv8Eeax9YbVxwrJCg" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="__hyaFZv8Eeax9YbVxwrJCg" name="INT" numericPrecisionRadix="10" javaDataType="4"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="__hyaGpv8Eeax9YbVxwrJCg" name="LoginID" label="LoginID" length="256" sourceType="VARCHAR" talendType="id_String" nullable="false">
+          <taggedValue xmi:id="__hyaG5v8Eeax9YbVxwrJCg" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="__hyaHJv8Eeax9YbVxwrJCg" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="__hyaHZv8Eeax9YbVxwrJCg" name="NVARCHAR" javaDataType="12"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="__hyaJpv8Eeax9YbVxwrJCg" name="JobTitle" label="JobTitle" length="50" sourceType="VARCHAR" talendType="id_String" nullable="false">
+          <taggedValue xmi:id="__hyaJ5v8Eeax9YbVxwrJCg" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="__hyaKJv8Eeax9YbVxwrJCg" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="__hyaKZv8Eeax9YbVxwrJCg" name="NVARCHAR" javaDataType="12"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="__hyaMpv8Eeax9YbVxwrJCg" name="Gender" label="Gender" length="1" sourceType="VARCHAR" talendType="id_String" nullable="false">
+          <taggedValue xmi:id="__hyaM5v8Eeax9YbVxwrJCg" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="__hyaNJv8Eeax9YbVxwrJCg" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="__hyaNZv8Eeax9YbVxwrJCg" name="NCHAR" javaDataType="1"/>
+        </feature>
+      </ownedElement>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>

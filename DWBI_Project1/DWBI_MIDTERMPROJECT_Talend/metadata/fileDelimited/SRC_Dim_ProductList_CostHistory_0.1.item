@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_bRrYwJ9DEeaEIIqjX2deDA" name="SRC_Dim_ProductList_CostHistory" dataPackage="_bRrYwZ9DEeaEIIqjX2deDA" Server="Localhost 127.0.0.1" FilePath="C:/Users/naukasalot/Desktop/DWBI/Mid-Term Project/ProductList_CostHistory.csv" Format="WINDOWS" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" EscapeType="CSV" CsvOption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_bRrYwZ9DEeaEIIqjX2deDA" name="default" dataManager="_bRrYwJ9DEeaEIIqjX2deDA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_bRrYwp9DEeaEIIqjX2deDA" id="_9FmbsJ9CEeaEIIqjX2deDA" label="SRC_Dim_ProductHistory_CostHistory">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bRrYw59DEeaEIIqjX2deDA" label="ProductID" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bRrYxJ9DEeaEIIqjX2deDA" label="StartDate" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bRrYxZ9DEeaEIIqjX2deDA" label="StandardCost" length="8" precision="5" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bRrYxp9DEeaEIIqjX2deDA" label="ModifiedDate" length="-1" talendType="id_Date" pattern="&quot;MM/dd/yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

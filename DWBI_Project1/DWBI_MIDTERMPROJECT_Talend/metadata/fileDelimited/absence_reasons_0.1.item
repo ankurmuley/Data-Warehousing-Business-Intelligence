@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_esc_YOlNEeWqVpCcPCWp5Q" name="absence_reasons" dataPackage="_esc_YelNEeWqVpCcPCWp5Q" Server="Localhost 127.0.0.1" FilePath="C:/Users/rick/Google Drive/NEU-2016/assignments/Training - AMC/Absence_Reason.txt" Format="WINDOWS" Encoding="US-ASCII" FieldSeparatorValue="&quot;\t&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" EscapeType="CSV" CsvOption="true" FieldSeparatorType="Tabulation"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_esc_YelNEeWqVpCcPCWp5Q" name="default" dataManager="_esc_YOlNEeWqVpCcPCWp5Q">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_esc_YulNEeWqVpCcPCWp5Q" id="_8rqakOlMEeWqVpCcPCWp5Q" label="Absence_Reason">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_w2WHgOlOEeWqVpCcPCWp5Q" label="_Reason_Id_" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_w2WHgelOEeWqVpCcPCWp5Q" label="_Reason_Code_" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_w2WHgulOEeWqVpCcPCWp5Q" label="_Reason_Desc_" length="35" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_w2WHg-lOEeWqVpCcPCWp5Q" label="_Reason_Abbv_" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_w2WHhOlOEeWqVpCcPCWp5Q" label="_Reason_Type_" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

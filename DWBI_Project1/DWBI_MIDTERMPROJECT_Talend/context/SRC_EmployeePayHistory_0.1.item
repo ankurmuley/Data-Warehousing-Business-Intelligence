@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_NhwUcJ7oEeaEIIqjX2deDA" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_NiGSsJ7oEeaEIIqjX2deDA" comment="" name="SRC_EmployeePayHistory_RowSeparator" prompt="SRC_EmployeePayHistory_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
+  <contextParameter xmi:id="_NiGSsZ7oEeaEIIqjX2deDA" comment="" name="SRC_EmployeePayHistory_Encoding" prompt="SRC_EmployeePayHistory_Encoding?" promptNeeded="false" type="id_String" value="US-ASCII"/>
+  <contextParameter xmi:id="_NiGSsp7oEeaEIIqjX2deDA" comment="" name="SRC_EmployeePayHistory_Header" prompt="SRC_EmployeePayHistory_Header?" promptNeeded="false" type="id_Integer" value="1"/>
+  <contextParameter xmi:id="_NiGSs57oEeaEIIqjX2deDA" comment="" name="SRC_EmployeePayHistory_FieldSeparator" prompt="SRC_EmployeePayHistory_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;;&quot;"/>
+  <contextParameter xmi:id="_NiGStJ7oEeaEIIqjX2deDA" comment="" name="SRC_EmployeePayHistory_File" prompt="SRC_EmployeePayHistory_File?" promptNeeded="false" type="id_File" value="C:/Users/naukasalot/Desktop/DWBI/Mid-Term Project/EmployeePayHistory.csv"/>
+</talendfile:ContextType>

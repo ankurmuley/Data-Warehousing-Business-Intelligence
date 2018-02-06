@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_qW_pMaCPEea_MoPxbazAFA" name="SRC_Dim_EmployeePayHistory" dataPackage="_qW_pMqCPEea_MoPxbazAFA" Server="Localhost 127.0.0.1" FilePath="C:/Users/naukasalot/Desktop/DWBI/Mid-Term Project/EmployeePayHistory.csv" Format="WINDOWS" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_qW_pMqCPEea_MoPxbazAFA" name="default" dataManager="_qW_pMaCPEea_MoPxbazAFA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_qW_pM6CPEea_MoPxbazAFA" id="_59xmQKCOEea_MoPxbazAFA" label="SRC_Dim_EmployeePayHistory">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qW_pNKCPEea_MoPxbazAFA" label="BusinessEntityID" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qW_pNaCPEea_MoPxbazAFA" label="RateChangeDate" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qW_pNqCPEea_MoPxbazAFA" label="Rate" length="7" precision="5" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qW_pN6CPEea_MoPxbazAFA" label="PayFrequency" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qW_pOKCPEea_MoPxbazAFA" label="ModifiedDate" length="-1" talendType="id_Date" pattern="&quot;MM-dd-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
