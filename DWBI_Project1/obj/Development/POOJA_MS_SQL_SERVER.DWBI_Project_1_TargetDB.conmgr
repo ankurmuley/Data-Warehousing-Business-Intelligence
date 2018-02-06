@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="POOJA_MS_SQL_SERVER.DWBI_Project_1_TargetDB"
+  DTS:DTSID="{F99D7D45-DC44-4CDC-B141-1FAB28C9C4C2}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=POOJA\MS_SQL_SERVER;Initial Catalog=DWBI_Project_1_TargetDB;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
