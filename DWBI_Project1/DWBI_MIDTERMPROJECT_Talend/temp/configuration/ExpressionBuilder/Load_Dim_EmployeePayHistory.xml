@@ -1,0 +1,10 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<expression:EMFExpression xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore" id="tMap_1=>" expression="((Relational.ISNULL(Dim_Employee.Employee_SK)) || Dim_Employee.Employee_SK == 0 ) ? -99 : Dim_Employee.Employee_SK">
+  <variables name="SRC_Dim_Employee_PayHistory.BusinessEntityID" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="SRC_Dim_Employee_PayHistory.RateChangeDate" value="null" talendType="id_String" nullable="true"/>
+  <variables name="SRC_Dim_Employee_PayHistory.Rate" value="null" talendType="id_BigDecimal" nullable="true"/>
+  <variables name="SRC_Dim_Employee_PayHistory.PayFrequency" value="null" talendType="id_Long" nullable="true"/>
+  <variables name="SRC_Dim_Employee_PayHistory.ModifiedDate" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="Dim_Employee.Employee_SK" value="0" talendType="id_Integer"/>
+  <variables name="Dim_Employee.EmployeeID_NK" value="0" talendType="id_Integer"/>
+</expression:EMFExpression>
